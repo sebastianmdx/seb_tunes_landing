@@ -1,14 +1,16 @@
 {
-  "name": "my_tunes_landing",
+  "name": "seb_tunes_landing",
   "version": "1.0.0",
   "description": "website similar to itunes",
   "main": "index.js",
+  "homepage": "https://sebastianmdx.github.io/seb_tunes_landing",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
